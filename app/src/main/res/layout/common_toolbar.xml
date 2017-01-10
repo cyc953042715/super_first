@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:minHeight="?attr/actionBarSize"
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:titleTextAppearance="@style/Toolbar.TitleText">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLength="6"
+        android:text="你好"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:drawablePadding="8dp"
+        android:drawableRight="@mipmap/arrow_down"
+        android:maxLength="4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="1234"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</android.support.v7.widget.Toolbar>

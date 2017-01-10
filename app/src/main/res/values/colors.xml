@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ff2bc1ab</color>
+
+    <color name="color_ff">#F0F0F0</color>
+    <color name="color_00">#8A000000</color>
+
+    <color name="common_line">#ccc</color>
+    <color name="background_color">#f2f2f2</color>
+    <color name="gray_text">#444</color>
+    <color name="gray_777">#777</color>
+    <color name="gray_999">#999</color>
+    <color name="red_commom">#ff5a26</color>
+    <color name="green_common">#008c23</color>
+    <color name="red_commom_clikle">#99ff5a26</color>
+    <color name="green_008c23">#008C23</color>
+    <color name="whole_color">#4388FB</color>
+
+    <color name="title_bar_select">#994388FB</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="title_bar_nomal">#0059c0</color>
+    <color name="color_ff4a57">#ff4a57</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:background="@drawable/title_bar_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="1px">
+    
+    <RadioGroup
+        android:id="@+id/radiogroup_switch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <RadioButton
+            android:id="@+id/button_left"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/title_left_button_radius"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:textSize="13.0dp"
+            />
+        
+        <RadioButton
+            android:id="@+id/button_right"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/title_right_button_radius"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:textSize="13.0dp"
+            />
+    </RadioGroup>
+</LinearLayout>
+

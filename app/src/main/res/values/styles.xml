@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+    <!--toolbar的格式-->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏和标题栏颜色-->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- 标题颜色-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <!-- 溢出菜单图标颜色-->
+        <!--<item name="colorControlNormal">@android:color/white</item>-->
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--&lt;!&ndash; 溢出菜单文字颜色&ndash;&gt;-->
+        <!--<item name="textAppearanceLargePopupMenu">@style/OverflowMenuTextAppearance</item>-->
+        <!--&lt;!&ndash; 菜单项点击selector&ndash;&gt;-->
+        <!--<item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>-->
+
+    </style>
+    <!-- 左边的箭头指示-->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!--&lt;!&ndash;溢出菜单文字样式&ndash;&gt;-->
+    <!--<style name="OverflowMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">-->
+        <!--<item name="android:textColor">@color/gray_text</item>-->
+    <!--</style>-->
+    <!--设置toolbar的字体大小-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="common_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.66dp</item>
+        <item name="android:background">@color/common_line</item>
+    </style>
+
+</resources>
